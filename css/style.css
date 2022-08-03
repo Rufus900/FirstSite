@@ -1,0 +1,175 @@
+.top {
+  background-color: #E4F9F5;
+  height: 100vh;
+}
+
+.WEB{
+
+}
+
+h1 {
+width: 15%;
+margin: 0 auto;
+font-family: 'Sacramento', cursive;
+font-size: 5.625rem;
+margin-top: 50px;
+color: #66BFBF;
+line-height: 1;
+}
+h2 {
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+color: #66BFBF;
+font-weight: normal;
+}
+a{
+  color: #11999E;
+}
+
+h3{
+font-family: 'Montserrat', sans-serif;
+color: #11999E;
+}
+body {
+margin: 0;
+text-align: center;
+width: 100%;
+font-family: 'Merriweather', serif;
+font-size: 2rem;
+}
+.zdjencie {
+  width: 100px;
+}
+.obraz{
+  width: 12.5rem;
+  background-color: white;
+
+}
+.mountain{
+position: absolute;
+width: 50%;
+bottom: 0;
+left: 25%;
+right: 25%;
+}
+.middle-cloud {
+  position: absolute;
+  right: 5.625rem;
+  top: 460px;
+  width: 15%;
+}
+.bottom-cloud {
+  position:absolute;
+  right: 70%;
+
+
+}
+.top-cloud {
+position: relative;
+left: 170px;
+}
+.linia {
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid black;
+}
+.zycie {
+  margin-top: 10px;
+}
+.btn {
+  background: #4fb3f5;
+  background-image: -webkit-linear-gradient(top, #4fb3f5, #0c5785);
+  background-image: -moz-linear-gradient(top, #4fb3f5, #0c5785);
+  background-image: -ms-linear-gradient(top, #4fb3f5, #0c5785);
+  background-image: -o-linear-gradient(top, #4fb3f5, #0c5785);
+  background-image: linear-gradient(to bottom, #4fb3f5, #0c5785);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  text-shadow: 3px 1px 3px #666666;
+  -webkit-box-shadow: 2px 2px 14px #000000;
+  -moz-box-shadow: 2px 2px 14px #000000;
+  box-shadow: 2px 2px 14px #000000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #ffffff);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #ffffff);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #ffffff);
+  background-image: -o-linear-gradient(top, #3cb0fd, #ffffff);
+  background-image: linear-gradient(to bottom, #3cb0fd, #ffffff);
+  text-decoration: none;
+}
+
+
+
+
+/* CSS */
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #11999E;
+  color: #11999E;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #11999E;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
